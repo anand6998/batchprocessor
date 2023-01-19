@@ -1,0 +1,13 @@
+server:
+  port: 8083
+
+  servlet:
+    context-path: /emrCluster
+
+spring:
+  batch:
+    job:
+      enabled: false
+  thymeleaf:
+    enabled: true
+    prefix: classpath:/templates
